@@ -1,0 +1,12 @@
+{
+  "name": "clinikally-docs-quality",
+  "private": true,
+  "scripts": {
+    "lint": "mint validate",
+    "validate:schema": "node .github/validate-config.mjs"
+  },
+  "devDependencies": {
+    "mint": "4.2.1032",
+    "@mintlify/validation": "0.1.910"
+  }
+}
